@@ -1,0 +1,1 @@
+We installed docker-cli inside the pipeline container, ran it as root, and mounted /var/run/docker.sock via Jenkinsfile so it could access the host Docker daemon.
